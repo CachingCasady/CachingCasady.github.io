@@ -51,20 +51,30 @@
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Brett Casady</b></p><br>
-      <img src="photos/imageMe.jpg" class="w3-round w3-image" alt="Photo of Me" width="400" height="300">
+      <img src="photos/imageMe.jpg" class="w3-image hero-image" alt="Photo of Brett" width="400" height="300">
     </div>
 
     <!-- This text is hidden on mobile -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large info-block">
+    <div class="w3-col m6 w3-center info-block">
       <p>The purpose of this site is to display the many projects I have completed throughout my 2 years at Rhodes State College Digital Media program. It also exists to give you some info about myself and I have even included a copy of my resume for you to download instead of wasting paper!</p>
     </div>
   </div>
-  <p class="w3-large w3-center w3-padding-16">Things I'm good at:</p>
-    <p class="w3-wide"><i class="fa fa-laptop"></i>Programming</p>
-    <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-    <p class="w3-wide"><i class="fa fa-photo"></i>Adobe Creative Suite Tools</p>
-    <p class="w3-wide"><i class="fa fa-child"></i>Communication</p>
 
+    <h4 class="w3-large w3-center w3-padding-16">Things I'm good at:</h4>
+    <div class="w3-content w3-center" style="max-width:600px">
+      <div class="mySlides w3-container">
+        <p class="w3-wide carousel-text"><i class="fa fa-laptop"></i> Programming</p>
+      </div>
+      <div class="mySlides w3-container">
+        <p class="w3-wide carousel-text"><i class="fa fa-laptop"></i> Web Design</p>
+      </div>
+      <div class="mySlides w3-container">
+        <p class="w3-wide carousel-text"><i class="fa fa-photo"></i> Adobe Creative Suite Tools</p>
+      </div>
+      <div class="mySlides w3-container">
+        <p class="w3-wide carousel-text"><i class="fa fa-child"></i> Communication</p>
+      </div>
+    </div>
 </div>
 
 <!-- Second BG Parallax Image -->
@@ -80,35 +90,71 @@
   <p class="w3-center"><em>Here are some of my projects created throughout college.<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive columns for desktop, tablet and mobile -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="photos/damagedPhoto.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Damaged Photo">
+  <div class="w3-row-padding w3-margin-top">
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/damagedPhoto.jpg" style="height:100%;width:100%;padding:5%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Damaged Photo">
+        <div class="w3-container w3-center">
+          <p>Damaged photo of a young boy.</p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/damagedPhotoRepaired.jpg" style="height:100%;width:100%;padding:5%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Repaired Photo">
+        <div class="w3-container w3-center">
+          <p>Repaired photo of a young boy.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="w3-col m3">
-      <img src="photos/damagedPhotoRepaired.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Repaired Photo">
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/lion.jpg" style="height:100%;width:100%;padding:25% 5% 25% 5%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Lion">
+        <div class="w3-container w3-center">
+          <p>Original black and white Lion.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="w3-col m3">
-      <img src="photos/lion.jpg" style="width:100%; margin-top:35px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Lion">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="photos/lionColored.jpg" style="width:100%; margin-top:35px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Lion Colored">
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/lionColored.jpg" style="height:100%;width:100%;padding:25% 5% 25% 5%;" onclick="onClick(this)" class="w3-hover-opacity" alt="Lion Colored">
+        <div class="w3-container w3-center">
+          <p style="margin-bottom:35px;">Repaired abstract Lion color.</p>
+        </div>
+      </div>
     </div>
   </div>
+    <!-- Begin second column of images -->
 
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="photos/buckeyes.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ohio State Buckeyes Logo">
+  <div class="w3-row-padding w3-margin-top">
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/buckeyes.png" style="height:100%;width:100%;padding:10px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Ohio State Buckeyes Logo">
+        <div class="w3-container w3-center">
+          <p>Logo design for The Buckeye Corner.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="w3-col m3">
-      <img src="photos/appleMagazine.gif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tech Magazine Mockup">
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/appleMagazine.gif" style="height:100%;width:100%;padding:10px;margin-bottom:10px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Tech Magazine Mockup">
+        <div class="w3-container w3-center">
+          <p>Magazine cover design.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="w3-col m3">
-      <img src="photos/businessCardMock.gif" style="width:100%; margin-top:70px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Business Card Mockup">
+    <div class="w3-quarter">
+      <div class="w3-card-4">
+        <img src="photos/businessCardMock.gif" style="height:100%;width:100%;padding:25px 10px 25px 10px;margin:40px 0;" onclick="onClick(this)" class="w3-hover-opacity" alt="Business Card Mockup">
+        <div class="w3-container w3-center">
+          <p>Business card design.</p>
+        </div>
+      </div>
     </div>
 
     <div class="w3-col m3">
@@ -137,7 +183,7 @@
   <p class="w3-center"><em>Here are some videos I created throughout college.</em>
   </p>
 
-    <div class="box">
+   <!--  <div class="box">
       <iframe width="400" height="300" src="https://www.youtube.com/embed/5zebSeeN6Ac" frameborder="0" allowfullscreen>
         <p>This browser does not support iframes</p>
       </iframe>
@@ -157,8 +203,8 @@
       <iframe width="400" height="300" src="https://www.youtube.com/embed/_J-DgmulJS0" frameborder="0" allowfullscreen>
         <p>This browser does not support iframes</p>
       </iframe>
-    </div>
-
+    </div> -->
+  </div>
 </div>
 
 <!-- Modal for full size images on click-->

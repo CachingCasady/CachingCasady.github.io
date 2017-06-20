@@ -5,10 +5,15 @@ body, html{height:100%;color:#777;line-height:1.8;}
 .bgimg-1{background-image:url("photos/image1.jpg");min-height:100%;}
 .bgimg-2{background-image:url("photos/image2.jpg");min-height:400px;}
 .bgimg-3{background-image:url("photos/image3.jpg");min-height:400px;}
-.w3-wide{letter-spacing:10px;}
+.hero-image{height:250px; width:250px;border-radius:50%;box-shadow:5px 5px 15px #4e535b;image-rendering:auto;}
+.w3-wide{letter-spacing:5px;margin-top:10px;}
 .w3-hover-opacity{cursor:pointer;}
 a{text-decoration:none;}
+.w3-row{padding:50px 0;}
 .w3-xxlarge{text-shadow:1px 2px 0 #000;}
-.info-block{margin-top:25%;}
+.w3-card-4{margin: 5px;}
+.info-block{margin:auto;display:block;padding-top:130px;}
+.mySlides{display:none;}
+.carousel-text{font-size:20px;}
 @media only screen and (max-device-width:1024px){.bgimg-1, .bgimg-2, .bgimg-3{background-attachment:scroll;}
 }
