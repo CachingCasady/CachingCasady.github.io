@@ -2,7 +2,7 @@ body,h1,h2,h3,h4,h5,h6{font-family:"Lato", sans-serif;}
 body, html{height:100%;color:#777;line-height:1.8;}
 .box{width:400px;float:left;margin-top:10px;margin-right:35px;margin-left:35px;}
 .bgimg-1, .bgimg-2, .bgimg-3{background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;}
-.bgimg-1{background-image:url("photos/image1.jpg");min-height:100%;}
+.bgimg-1{background-image:url("https://s-media-cache-ak0.pinimg.com/originals/c5/d9/e0/c5d9e05f7c1055e32d67a34363cca041.jpg");min-height:100%;}
 .bgimg-2{background-image:url("photos/image2.jpg");min-height:400px;}
 .bgimg-3{background-image:url("photos/image3.jpg");min-height:400px;}
 .hero-image{height:250px; width:250px;border-radius:50%;box-shadow:5px 5px 15px #4e535b;image-rendering:auto;}
